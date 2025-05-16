@@ -3,5 +3,5 @@
 deployment:
   tasks:
     # - export DEPLOYPATH=/home/smschann/public_html/
-    - export DEPLOYPATH=/home/connexxtel/public_html/hos_bcknd
+    - export DEPLOYPATH=/home/connexxtel/public_html/hos_backend
     - /bin/cp -R * $DEPLOYPATH
